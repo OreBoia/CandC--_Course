@@ -1,9 +1,9 @@
 #include <iostream>
 
 class Risorsa {
-public:
-    Risorsa()  { std::cout << "Risorsa acquisita\n"; }
-    ~Risorsa() { std::cout << "Risorsa rilasciata\n"; }
+    public:
+        Risorsa()  { std::cout << "Risorsa acquisita\n"; }
+        ~Risorsa() { std::cout << "Risorsa rilasciata\n"; }
 };
 
 int main() {

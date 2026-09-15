@@ -1,15 +1,15 @@
 #include <iostream>
 
 class Punto {
-private:
-    int x, y;
+    private:
+        int x, y;
 
-public:
-    Punto(int px, int py) : x(px), y(py) {}    // lista di inizializzazione
+    public:
+        Punto(int px, int py) : x(px), y(py) {}    // lista di inizializzazione
 
-    void stampa() {
-        std::cout << "(" << x << ", " << y << ")\n";
-    }
+        void stampa() {
+            std::cout << "(" << x << ", " << y << ")\n";
+        }
 };
 
 int main() {
